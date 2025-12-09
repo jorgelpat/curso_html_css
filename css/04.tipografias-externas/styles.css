@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-family: Jorge;
+    font-size: 18px;/* por defecto 16px */
+    font-weight: 800;/* 200 a 900 */
+    font-style: italic;/* cursiva */
+    text-align: justify;/* alineacion */
+    line-height: 2;/* altura de letras */
+    letter-spacing: 1px;/* espacio entre letras */
+    text-transform: capitalize;/* transforma el texto */
+}
+
+a {
+    text-decoration: none;/* quita subrayado */
+}
+
+span {
+    text-decoration: line-through;/* tachado */
+    color: blue;
+}

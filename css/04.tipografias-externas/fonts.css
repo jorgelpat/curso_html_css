@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Jorge";
+    src: url("fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Jorge";
+    src: url("fonts/Barriecito-Regular.ttf") format("truetype");
+    font-weight: 900;
+}
+
