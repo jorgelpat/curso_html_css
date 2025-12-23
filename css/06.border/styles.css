@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+div {
+    background: red;
+    font-size: 150px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border: 5px solid black; /* reemplazamos los datos de arriba */
+    /* se puede modificar por efecto cascada los valores determinados */
+    /* border-top-left-radius: 85px;
+    border-bottom-right-radius: 85px; */
+    border-radius: 85px 0 85px 0;
+}
+
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    background: transparent;
+    color: greenyellow;
+}
