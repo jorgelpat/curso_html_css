@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: #5f249f;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background: #5f249f;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 50px 10px #000;
+    /* box-shadow: horizontal, vertical, extension, desenfoque, color; */
+    border-radius: 7px;
+}
+
+div {
+    width: 150px;
+    height: 84px;
+    background-image: url(https://companieslogo.com/img/orig/NU.D-310a665d.png?t=1720244493);
+    background-size: cover;
+    margin: 10px;
+    filter: drop-shadow(15px 15px 15px #000);
+    /* usamos filter: para darle una sombra a la imagen */
+}
+
+h2 {
+    padding: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: 10px 10px 40px #000;
+}
