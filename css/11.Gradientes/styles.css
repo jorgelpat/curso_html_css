@@ -4,12 +4,15 @@ body {
 }
 
 .box {
-    width: 400px;
+    width: 300px;
     height: 400px;
-    background: linear-gradient(#000a, transparent);
+    background: linear-gradient(transparent, #000a);
     /* se le pueden agregar otras cosas al gradiante */
     margin: 0;
-    width: 100%;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid #900;
 }
 
 h1 {
