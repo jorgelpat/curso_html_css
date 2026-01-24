@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+    margin: 0;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#000a, transparent);
+    /* se le pueden agregar otras cosas al gradiante */
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
