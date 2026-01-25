@@ -1,0 +1,46 @@
+body {
+    background: #5f249f;
+    margin: 0;
+    height: 100vh;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+
+    /* ubicamos los elementos hijos */
+    display: grid;
+    place-items: center;
+}
+
+.lado-izquierdo {
+    /* probar */
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 50px 10px #000;
+    border-radius: 7px;
+
+    /* ubicamos la imagen  */
+    display: flex;
+    justify-content: flex-start;  /* Horizontal: flex-start (izq), center, flex-end (der) */
+    align-items: flex-start;      /* Vertical: flex-start (arriba), center, flex-end (abajo) */
+}
+
+.img-content {
+    width: 100px;   /* Cambia el tamaño aquí */
+    height: auto;   /* Mantiene la proporción */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nombre-content {
+    color: #fff;
+}
