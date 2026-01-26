@@ -13,12 +13,6 @@ body {
     place-items: center;
 }
 
-.lado-izquierdo {
-    /* probar */
-    display: flex;
-    justify-content: space-around;
-}
-
 .tarjeta {
     width: 500px;
     height: 300px;
@@ -29,6 +23,12 @@ body {
     display: flex;
     justify-content: flex-start;  /* Horizontal: flex-start (izq), center, flex-end (der) */
     align-items: flex-start;      /* Vertical: flex-start (arriba), center, flex-end (abajo) */
+}
+
+.lado-izquierdo {
+    /* probar */
+    display: flex;
+    flex-direction: column;
 }
 
 .img-content {
