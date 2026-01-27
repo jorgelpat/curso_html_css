@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    /* quitar lineas abajo */
+    text-decoration: none;
+    /* heredar color de texto de padre */
+    color: inherit;
+}
+
+ul {
+    /* color de fondo */
+    background-color: white;
+    /* quitar los puntos de la lista */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: chocolate;
+    /* color fuente */
+    color: white;
+    /* borde con puntos (dashed) */
+    border: dashed black;
+    padding: .3rem .7rem;
+}
+
+ul {
+    /* usamos esto para activar flex. Se ordena de izq a der >>>> */
+    display: flex;
+
+    /* valor por defecto es row
+    row-reverse para cambiar el sentido original al reverso <<< en el eje x
+    column para dar dirección hacia abajo
+    column-reverse para dar dirección hacia arriba */
+    /* flex-direction: row-reverse; */
+
+    /* valor defecto es flex-start
+    flex-end para mover en el mismo orden al final 
+    tenemos flex-start, end y start; space-between, space-around y space-evenly*/
+    /* justify-content: space-evenly; */
+
+
+    /* Combinación de Flex-direction y Justify-content */
+    /* Usamos row-reverse para reversar el orden en el eje x
+    luego usamos justify-content: start; para dejarlo a la izquierda */
+    flex-direction: row-reverse;
+    justify-content: start;
+}

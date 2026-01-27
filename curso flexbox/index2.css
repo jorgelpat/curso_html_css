@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    /* quitar lineas abajo */
+    text-decoration: none;
+    /* heredar color de texto de padre */
+    color: inherit;
+}
+
+ul {
+    /* color de fondo */
+    background-color: white;
+    /* quitar los puntos de la lista */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: chocolate;
+    /* color fuente */
+    color: white;
+    /* borde con puntos (dashed) */
+    border: dashed black;
+    padding: .3rem .7rem;
+}
+
+ul {
+    /* activamos flex */
+    display: flex;
+
+    /* para organizar muchos elementos en vez de usar scroll, tambien podemos hacer que se vea en la parte de abajo usamos flex-wrap: wrap; y tambien usamos valores similares a row como wrap-reverse. (valor por defecto es no-wrap)*/
+    /* flex-wrap: wrap-reverse; */
+
+    /* para combinar el flex-direction con el flex-wrap, podemos usar flex-flow */
+    flex-flow: column wrap;
+}
