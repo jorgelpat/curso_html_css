@@ -18,6 +18,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    height: 10rem;
 }
 
 li {
@@ -48,6 +49,13 @@ ul {
     /* Combinación de Flex-direction y Justify-content */
     /* Usamos row-reverse para reversar el orden en el eje x
     luego usamos justify-content: start; para dejarlo a la izquierda */
-    flex-direction: row-reverse;
-    justify-content: start;
+    /* flex-direction: row-reverse; */
+    /* justify-content: start; */
+
+
+    /* si le agregamos una altura a este contenedor podemos usar align-items, por defecto es stretch y pone los contenidos al largo del largo del contenedor */
+    /* usamos flex-end para ponerlos en la parte inferior del contenedor */
+    /* center para centrar en el eje vertical */
+    align-items: center;
+    justify-content: center;
 }
