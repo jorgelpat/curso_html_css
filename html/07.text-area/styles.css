@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+form {
+    background-color: #ededed;
+}
+
+.form_input {
+    padding: 6px 20px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+}
