@@ -1,17 +1,50 @@
 body {
     margin: 0;
+    color: #eee;
+    background-color: #222;
+    font-family: sans-serif;
 }
 
 form {
-    background-color: #ededed;
+    background-color: transparent;
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #0009;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
 }
 
 .form_input {
     padding: 6px 20px;
 }
 
-input {
+input, textarea {
     width: 100%;
     box-sizing: border-box;
-    padding: 6px 12px;
+    padding: 6px 8px;
+    border: none;
+    border: 1px solid #666;
+    box-shadow: 0 0 15px #0003;
+    background: transparent;
+    border-radius: 4px;
+    color: #eee;
+}
+
+textarea {
+    min-width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: sans-serif;
 }
