@@ -1,0 +1,18 @@
+body {
+    color: green;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: red;
+    color: inherit;
+}
+
+p {
+    color: blue;
+    color: initial;
+    font-family: initial;
+}
+
+/* para heredar "el color" del padre se usa inherit */
+/* para heredar el valor inicial se usa initial */
