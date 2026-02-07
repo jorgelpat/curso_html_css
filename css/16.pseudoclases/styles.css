@@ -1,0 +1,56 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* para cambiar el color cuando el cursor pase por encima del elemento */
+h1:hover {
+    background-color: gray;
+    color: #000;
+}
+
+/* cambia cuando se mantenga el click en el elemento */
+h1:active {
+    background-color: #999;
+    color: red;
+}
+
+/* selecciona el primer li */
+li:first-child {
+    color: red;
+}
+
+/* selecciona el segundo li */
+li:last-child {
+    color: red;
+}
+
+/* selecciona el enésimo li */
+li:nth-child(5) {
+    color: red;
+}
+
+/* selecciona el tercer elemento en secuencia*/
+li:nth-child(3n) {
+    color: blue;
+}
+
+/* selecciona todos menos el elemento seleccionado */
+li:not(.excluir) {
+    color: white;
+}
+
+/* selecciona los elementos vacios */
+li:empty {
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* elegir el checkbox checkeado */
+input[type="checkbox"] {
+    margin: 50px;
+}
+input[type="checkbox"]:checked {
+    margin: 0;
+}
