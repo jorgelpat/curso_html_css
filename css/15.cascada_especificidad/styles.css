@@ -1,0 +1,27 @@
+#titulo {
+    color: blue;
+}
+
+.titulo {
+    color: red;
+}
+
+body h1 {
+    color: coral;
+}
+
+h1 {
+    color: green;
+}
+
+/* orden jerarquico de especificidad */
+
+/* 
+
+1. !important
+2. style estilos de linea
+3. IDs
+4. class, atributos, pseudoclases
+5. elementos y pseudo-elementos
+
+*/
