@@ -1,0 +1,47 @@
+li {
+    color: gray;
+}
+
+.ingrediente-faltante {
+    color: red;
+}
+
+#ingrediente-secreto {
+    color: blue;
+}
+
+
+/* Elegir una Imagen por url */
+img[src="https://cdn-images.dzcdn.net/images/artist/9290db807f8a7ff104cbb2ba03bc0810/1900x1900-000000-80-0-0.jpg"] {
+    width: 100%;
+}
+
+/* elegir una imagen que sea .jpg */
+img[src$="jpg"] {
+    width: 100%;
+}
+
+/* elegir una imagen que empiece por nombre del archivo "ellie" */
+img[src^="ellie"] {
+    width: 100%;
+}
+
+/* para elegir li dentro de un ul */
+ul li {
+    color: green;
+}
+
+/* para elegir un strong que necesariamente sea hijo directo de ul */
+ul > strong {
+    color: red;
+}
+
+/* para seleccionar un p que viene despues de un h1 */
+h1 + p {
+    color: blue;
+}
+
+/* seleccionar todos los p que vengan despues de un h1 */
+h1 ~ p {
+    color: chocolate;
+}
