@@ -1,0 +1,22 @@
+div {
+    padding: 20px;
+}
+
+/* cambiamos la primera letra del elemento h1 */
+h1::first-letter {
+    color: red;
+    font-size: 3em;
+    letter-spacing: -8px;
+}
+
+/* toda la primera linea cambia */
+div::first-line {
+    color: red;
+}
+
+/* modifica el placeholder */
+input::placeholder {
+    color: green;
+}
+
+/* tenemos el before y el after */
