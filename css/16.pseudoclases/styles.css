@@ -4,6 +4,10 @@ h1 {
     margin: 30px;
 }
 
+a {
+    display: flex;
+}
+
 /* para cambiar el color cuando el cursor pase por encima del elemento */
 h1:hover {
     background-color: gray;
@@ -53,4 +57,24 @@ input[type="checkbox"] {
 }
 input[type="checkbox"]:checked {
     margin: 0;
+}
+
+/* seleccionando enlaces no visitados */
+a:link {
+    color: red;
+}
+
+/* seleccionando enlaces visitados */
+a:visited {
+    color: green;
+}
+
+/* seleccionamos los input email inválidos */
+input:invalid {
+    color: blueviolet;
+}
+
+/* seleccionamos inputs validos */
+input:valid {
+    color: green;
 }
