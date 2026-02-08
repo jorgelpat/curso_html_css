@@ -1,0 +1,24 @@
+.elemento1,
+.elemento2,
+.elemento3 {
+    color: red;
+}
+
+/* para ahorrarse escribir varias veces section cuando solo necesitas usar los elementos que se encuentran dentro de otro elemento */
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: green;
+}
+
+a {
+    display: flex;
+}
+
+/* si section tiene .elemento4, entonces: */
+section:has(.elemento4) {
+    background-color: black;
+}
+
+/* modificamos ul si despues en el mismo nivel jerárquico hay un div */
+ul:has(+div) {
+    background-color: green;
+}
