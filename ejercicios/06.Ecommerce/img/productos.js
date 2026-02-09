@@ -13,5 +13,10 @@ const productos = [
         seccion: "Abrigo",
         imagen: "https://ae-pic-a1.aliexpress-media.com/kf/Saf7d91d524a54cc09b1b4fc8349e0c44D.jpg_960x960q75.jpg_.avif",
         precio: 2000
-    }
+    },
+    {
+        seccion: "Abrigo",
+        imagen: "https://ae-pic-a1.aliexpress-media.com/kf/Sc3471cbb48a2472d8c5601e21a9d7933t.jpg?has_lang=1&ver=2_960x960q75.jpg_.avif",
+        precio: 2000
+    },
 ]
