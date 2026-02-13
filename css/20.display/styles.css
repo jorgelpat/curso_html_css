@@ -39,6 +39,7 @@ div {
     color: #48e;
     border-radius: 3px;
     margin-left: 60px;
+    /* display: none; */
 }
 
 .link--button:hover {
