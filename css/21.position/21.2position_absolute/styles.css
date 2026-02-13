@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #ccc;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* cuando ponemos position relative a este contenedor, se vuelve como punto de referencia */
+.contenedor {
+    border: 2px solid #000;
+    margin: 30px 50px;
+    background-color: #fff;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 207, 8);
+    color: #fff;
+}
+
+/* con position absolute pierde su espacio y puede tomar prestado cualquier espacio disponible */
+.box--blue {
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.box--red {
+    background-color: red;
+}
