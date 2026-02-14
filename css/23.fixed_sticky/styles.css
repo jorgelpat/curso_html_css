@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    padding: 150px;
+    background-color: #00f;
+    position: relative;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* con fixed queda fija en un punto al hacer scroll */
+.box {
+    height: 80px;
+    width: 200px;
+    background-color: red;
+    position: fixed;
+    right: 0;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-right: 0;
+    box-shadow: 0 0 40px #000;
+}
+
+/* cuando llegue a la posicion de los 20px queda fija con sticky */
+.box-fixed {
+    height: 80px;
+    width: 200px;
+    background-color: red;
+    position: sticky;
+    top: 20px;
+}
