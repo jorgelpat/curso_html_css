@@ -1,0 +1,16 @@
+header {
+    /* bd */
+    border: 1px solid #000;
+    /* m10 */
+    margin: 10px;
+    /* m10p */
+    margin: 10%;
+    /* m10-20 */
+    margin: 10px 20px;
+    /* bd10-10r10e */
+    border: 10px 10rem 10em;
+    /* c#12 */
+    color: #121212;
+    /* c#red */
+    color: #000 red;
+}
