@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+/* por defecto el valor de overflow es visible */
+/* si usamos overflow:hidden, el contenido que sobresale no se verá */
+/* si usamos scroll se muestra un scroll para visualizar todo el contenido */
+/* con overflow:auto aparece un scroll solo si lo necesita */
+
+.box {
+    height: 220px;
+    width: 220px;
+    background-color: #fff;
+    color: red;
+    position: relative;
+    left: 0;
+    border: 2px solid #0009;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
