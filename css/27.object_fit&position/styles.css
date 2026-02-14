@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* la imagen se ajusta para visibilidad completa dependiendo de las dimensiones */
+.img1 {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+/* aquí podemos ver la parte superior de la imagen con object-fit:cover y object-position:top */
+.img2 {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    /* para ver una parte de la imagen */
+    object-position: top;
+    border: 2px solid black;
+    background-color: gray;
+}
