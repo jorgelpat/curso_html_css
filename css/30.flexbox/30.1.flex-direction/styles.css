@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox {
+    display: flex;
+
+    /* valor por defecto es flex-wrap: no-wrap; */
+
+    /* al usar este, cuando no hay espacio para contener los elementos los ordena en otra fila */
+    flex-wrap: wrap;
+
+    /* pasa lo mismo si lo ordenamos con flex-direction: column. Pasa a otra columna */
+    /* flex-direction: column; */
+
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+.flex-item {
+    margin: 10px;
+    width: 180px;
+    background-color: red;
+    color: #fff;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex-item:first-child {
+    background-color: blue;
+}
+
+.flex-item:last-child {
+    background-color: green;
+}
