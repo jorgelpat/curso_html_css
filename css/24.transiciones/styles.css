@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+
+    /* le asignamos el valor de transicion de color */
+    transition-property: color;
+    /* le asignamos la duración de la transición */
+    transition-duration: 1s;
+    /* le asignamos el tiempo que demora para empezar a transicionar */
+    transition-delay: 1s;
+    color: red;
+}
+
+.box:hover {
+    color: #fff;
+}
