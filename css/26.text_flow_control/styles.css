@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+/* white-space normal viene por defecto */
+/* white-space nowrap no deja saltos de línea y deja todo el texto en horizontal */
+/* pre deja los saltos de línea tal cual se ponen en el html */
+.box {
+    height: 240px;
+    width: 240px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #0006;
+    white-space: pre;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
