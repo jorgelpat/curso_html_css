@@ -18,16 +18,15 @@ body {
     justify-content: space-between;
 }
 
+/* Estudiar align-content */
+
+
 .flexbox {
     display: flex;
-
-    /* valor por defecto es flex-wrap: no-wrap; */
-
-    /* al usar este, cuando no hay espacio para contener los elementos los ordena en otra fila */
     flex-wrap: wrap;
+    flex-direction: column;
 
-    /* pasa lo mismo si lo ordenamos con flex-direction: column. Pasa a otra columna */
-    flex-direction: row;
+    align-items: end;
 
     border: 2px solid #000;
     margin: 10px;
@@ -58,7 +57,6 @@ body {
 }
 
 .flexbox2 {
-    /* para usar flex-direction y flex-wrap al mismo tiempo usamos flex-flow */
     display: flex;
     flex-flow: row wrap;
 
