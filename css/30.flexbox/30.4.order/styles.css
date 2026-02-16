@@ -1,0 +1,56 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estudiar align-content */
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+.flex-item {
+    margin: 10px;
+    width: 180px;
+    background-color: red;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* el order funciona con jerarquía. Aparecerá en orden los item según el número más alto obajo que tengan */
+.flex-item:first-child {
+    background-color: blue;
+    order: 3;
+}
+
+.flex-item:nth-child(2){
+    order: 2;
+}
+
+.flex-item:last-child {
+    background-color: green;
+    order: 1;
+}
